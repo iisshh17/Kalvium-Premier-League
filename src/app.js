@@ -5,8 +5,8 @@ let currentTeam = "Manchester FC";
 let trophiesWon = 27;
 
 //Write your function here
-function createManager(managerAge, currentTeam, trophiesWon){
-  var ManagerInfo = [managerAge, currentTeam, trophiesWon];
+function createManager(managerName, managerAge, currentTeam, trophiesWon){
+  var ManagerInfo = [managerName, managerAge, currentTeam, trophiesWon];
   return ManagerInfo;
 }
 
